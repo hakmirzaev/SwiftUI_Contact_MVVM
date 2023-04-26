@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0E6F780D29F981D900E64A3F /* SwiftUI_Contact_MVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F780C29F981D900E64A3F /* SwiftUI_Contact_MVVMApp.swift */; };
-		0E6F780F29F981D900E64A3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F780E29F981D900E64A3F /* ContentView.swift */; };
 		0E6F781129F981DB00E64A3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E6F781029F981DB00E64A3F /* Assets.xcassets */; };
 		0E6F781429F981DB00E64A3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E6F781329F981DB00E64A3F /* Preview Assets.xcassets */; };
 		0E6F781629F981DB00E64A3F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F781529F981DB00E64A3F /* Persistence.swift */; };
@@ -16,6 +15,18 @@
 		0E6F782329F981DB00E64A3F /* SwiftUI_Contact_MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F782229F981DB00E64A3F /* SwiftUI_Contact_MVVMTests.swift */; };
 		0E6F782D29F981DB00E64A3F /* SwiftUI_Contact_MVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F782C29F981DB00E64A3F /* SwiftUI_Contact_MVVMUITests.swift */; };
 		0E6F782F29F981DB00E64A3F /* SwiftUI_Contact_MVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F782E29F981DB00E64A3F /* SwiftUI_Contact_MVVMUITestsLaunchTests.swift */; };
+		0E6F784229F983C100E64A3F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F784129F983C100E64A3F /* HomeViewModel.swift */; };
+		0E6F784529F9846600E64A3F /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F784429F9846600E64A3F /* HomeScreen.swift */; };
+		0E6F784829F984DE00E64A3F /* CreateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F784729F984DE00E64A3F /* CreateViewModel.swift */; };
+		0E6F784A29F984EB00E64A3F /* CreateScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F784929F984EB00E64A3F /* CreateScreen.swift */; };
+		0E6F784D29F9850000E64A3F /* EditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F784C29F9850000E64A3F /* EditViewModel.swift */; };
+		0E6F784F29F9850B00E64A3F /* EditScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F784E29F9850B00E64A3F /* EditScreen.swift */; };
+		0E6F785229F9852300E64A3F /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F785129F9852300E64A3F /* Contact.swift */; };
+		0E6F785529F9853700E64A3F /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F785429F9853700E64A3F /* ContactCell.swift */; };
+		0E6F785829F9854C00E64A3F /* AFHttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F785729F9854C00E64A3F /* AFHttp.swift */; };
+		5161FEB5C162A0490A3E86A3 /* Pods_SwiftUI_Contact_MVVM_SwiftUI_Contact_MVVMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7234BE8836290EFC025B9919 /* Pods_SwiftUI_Contact_MVVM_SwiftUI_Contact_MVVMUITests.framework */; };
+		641442069F38EAE562634377 /* Pods_SwiftUI_Contact_MVVMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F89A5CC25877EEA858180C /* Pods_SwiftUI_Contact_MVVMTests.framework */; };
+		D4426CA2546194B3FE50132A /* Pods_SwiftUI_Contact_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097F9A7BBF53F4C6F6634B91 /* Pods_SwiftUI_Contact_MVVM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		097F9A7BBF53F4C6F6634B91 /* Pods_SwiftUI_Contact_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_Contact_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E6F780929F981D900E64A3F /* SwiftUI_Contact_MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Contact_MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E6F780C29F981D900E64A3F /* SwiftUI_Contact_MVVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Contact_MVVMApp.swift; sourceTree = "<group>"; };
-		0E6F780E29F981D900E64A3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0E6F781029F981DB00E64A3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E6F781329F981DB00E64A3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0E6F781529F981DB00E64A3F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +59,23 @@
 		0E6F782829F981DB00E64A3F /* SwiftUI_Contact_MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_Contact_MVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E6F782C29F981DB00E64A3F /* SwiftUI_Contact_MVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Contact_MVVMUITests.swift; sourceTree = "<group>"; };
 		0E6F782E29F981DB00E64A3F /* SwiftUI_Contact_MVVMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Contact_MVVMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0E6F784129F983C100E64A3F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		0E6F784429F9846600E64A3F /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		0E6F784729F984DE00E64A3F /* CreateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewModel.swift; sourceTree = "<group>"; };
+		0E6F784929F984EB00E64A3F /* CreateScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScreen.swift; sourceTree = "<group>"; };
+		0E6F784C29F9850000E64A3F /* EditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewModel.swift; sourceTree = "<group>"; };
+		0E6F784E29F9850B00E64A3F /* EditScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditScreen.swift; sourceTree = "<group>"; };
+		0E6F785129F9852300E64A3F /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		0E6F785429F9853700E64A3F /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		0E6F785729F9854C00E64A3F /* AFHttp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFHttp.swift; sourceTree = "<group>"; };
+		10098B96CD26331E26799BE2 /* Pods-SwiftUI_Contact_MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_Contact_MVVM.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI_Contact_MVVM/Pods-SwiftUI_Contact_MVVM.release.xcconfig"; sourceTree = "<group>"; };
+		1E97124429285896A1E61334 /* Pods-SwiftUI_Contact_MVVM-SwiftUI_Contact_MVVMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_Contact_MVVM-SwiftUI_Contact_MVVMUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI_Contact_MVVM-SwiftUI_Contact_MVVMUITests/Pods-SwiftUI_Contact_MVVM-SwiftUI_Contact_MVVMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7234BE8836290EFC025B9919 /* Pods_SwiftUI_Contact_MVVM_SwiftUI_Contact_MVVMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_Contact_MVVM_SwiftUI_Contact_MVVMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8658F8A85A06231FCAE4B24D /* Pods-SwiftUI_Contact_MVVMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_Contact_MVVMTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI_Contact_MVVMTests/Pods-SwiftUI_Contact_MVVMTests.release.xcconfig"; sourceTree = "<group>"; };
+		99FC7E31C537F0C2449C2FB4 /* Pods-SwiftUI_Contact_MVVMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_Contact_MVVMTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI_Contact_MVVMTests/Pods-SwiftUI_Contact_MVVMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B252661BB04AC7372AADAFEE /* Pods-SwiftUI_Contact_MVVM-SwiftUI_Contact_MVVMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_Contact_MVVM-SwiftUI_Contact_MVVMUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI_Contact_MVVM-SwiftUI_Contact_MVVMUITests/Pods-SwiftUI_Contact_MVVM-SwiftUI_Contact_MVVMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D26887A71F8DE9EA8005C952 /* Pods-SwiftUI_Contact_MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_Contact_MVVM.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI_Contact_MVVM/Pods-SwiftUI_Contact_MVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		F1F89A5CC25877EEA858180C /* Pods_SwiftUI_Contact_MVVMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_Contact_MVVMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4426CA2546194B3FE50132A /* Pods_SwiftUI_Contact_MVVM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				641442069F38EAE562634377 /* Pods_SwiftUI_Contact_MVVMTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,12 +99,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5161FEB5C162A0490A3E86A3 /* Pods_SwiftUI_Contact_MVVM_SwiftUI_Contact_MVVMUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00F48650488CF34300B08D93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				097F9A7BBF53F4C6F6634B91 /* Pods_SwiftUI_Contact_MVVM.framework */,
+				7234BE8836290EFC025B9919 /* Pods_SwiftUI_Contact_MVVM_SwiftUI_Contact_MVVMUITests.framework */,
+				F1F89A5CC25877EEA858180C /* Pods_SwiftUI_Contact_MVVMTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0E6F780029F981D900E64A3F = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +123,8 @@
 				0E6F782129F981DB00E64A3F /* SwiftUI_Contact_MVVMTests */,
 				0E6F782B29F981DB00E64A3F /* SwiftUI_Contact_MVVMUITests */,
 				0E6F780A29F981D900E64A3F /* Products */,
+				54F07F2C0AE0879C36743788 /* Pods */,
+				00F48650488CF34300B08D93 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +141,13 @@
 		0E6F780B29F981D900E64A3F /* SwiftUI_Contact_MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				0E6F783B29F9835600E64A3F /* screens */,
+				0E6F785029F9851B00E64A3F /* model */,
+				0E6F785329F9852A00E64A3F /* cell */,
+				0E6F785629F9853E00E64A3F /* network */,
 				0E6F780C29F981D900E64A3F /* SwiftUI_Contact_MVVMApp.swift */,
-				0E6F780E29F981D900E64A3F /* ContentView.swift */,
-				0E6F781029F981DB00E64A3F /* Assets.xcassets */,
 				0E6F781529F981DB00E64A3F /* Persistence.swift */,
-				0E6F781729F981DB00E64A3F /* SwiftUI_Contact_MVVM.xcdatamodeld */,
+				0E6F783C29F9835C00E64A3F /* apputils */,
 				0E6F781229F981DB00E64A3F /* Preview Content */,
 			);
 			path = SwiftUI_Contact_MVVM;
@@ -133,6 +178,113 @@
 			path = SwiftUI_Contact_MVVMUITests;
 			sourceTree = "<group>";
 		};
+		0E6F783B29F9835600E64A3F /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				0E6F783D29F9837400E64A3F /* home */,
+				0E6F783E29F9838000E64A3F /* create */,
+				0E6F783F29F9838400E64A3F /* edit */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		0E6F783C29F9835C00E64A3F /* apputils */ = {
+			isa = PBXGroup;
+			children = (
+				0E6F781729F981DB00E64A3F /* SwiftUI_Contact_MVVM.xcdatamodeld */,
+				0E6F781029F981DB00E64A3F /* Assets.xcassets */,
+			);
+			path = apputils;
+			sourceTree = "<group>";
+		};
+		0E6F783D29F9837400E64A3F /* home */ = {
+			isa = PBXGroup;
+			children = (
+				0E6F784029F983A100E64A3F /* viewmodel */,
+				0E6F784429F9846600E64A3F /* HomeScreen.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		0E6F783E29F9838000E64A3F /* create */ = {
+			isa = PBXGroup;
+			children = (
+				0E6F784629F984C500E64A3F /* viewmodel */,
+				0E6F784929F984EB00E64A3F /* CreateScreen.swift */,
+			);
+			path = create;
+			sourceTree = "<group>";
+		};
+		0E6F783F29F9838400E64A3F /* edit */ = {
+			isa = PBXGroup;
+			children = (
+				0E6F784B29F984F000E64A3F /* viewmodel */,
+				0E6F784E29F9850B00E64A3F /* EditScreen.swift */,
+			);
+			path = edit;
+			sourceTree = "<group>";
+		};
+		0E6F784029F983A100E64A3F /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				0E6F784129F983C100E64A3F /* HomeViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		0E6F784629F984C500E64A3F /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				0E6F784729F984DE00E64A3F /* CreateViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		0E6F784B29F984F000E64A3F /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				0E6F784C29F9850000E64A3F /* EditViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		0E6F785029F9851B00E64A3F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0E6F785129F9852300E64A3F /* Contact.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		0E6F785329F9852A00E64A3F /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				0E6F785429F9853700E64A3F /* ContactCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		0E6F785629F9853E00E64A3F /* network */ = {
+			isa = PBXGroup;
+			children = (
+				0E6F785729F9854C00E64A3F /* AFHttp.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		54F07F2C0AE0879C36743788 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D26887A71F8DE9EA8005C952 /* Pods-SwiftUI_Contact_MVVM.debug.xcconfig */,
+				10098B96CD26331E26799BE2 /* Pods-SwiftUI_Contact_MVVM.release.xcconfig */,
+				B252661BB04AC7372AADAFEE /* Pods-SwiftUI_Contact_MVVM-SwiftUI_Contact_MVVMUITests.debug.xcconfig */,
+				1E97124429285896A1E61334 /* Pods-SwiftUI_Contact_MVVM-SwiftUI_Contact_MVVMUITests.release.xcconfig */,
+				99FC7E31C537F0C2449C2FB4 /* Pods-SwiftUI_Contact_MVVMTests.debug.xcconfig */,
+				8658F8A85A06231FCAE4B24D /* Pods-SwiftUI_Contact_MVVMTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,9 +292,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E6F783229F981DB00E64A3F /* Build configuration list for PBXNativeTarget "SwiftUI_Contact_MVVM" */;
 			buildPhases = (
+				FDA9B7E7FD78E2786A5017D4 /* [CP] Check Pods Manifest.lock */,
 				0E6F780529F981D900E64A3F /* Sources */,
 				0E6F780629F981D900E64A3F /* Frameworks */,
 				0E6F780729F981D900E64A3F /* Resources */,
+				CAF360E69E3738CF22129B42 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,6 +311,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E6F783529F981DB00E64A3F /* Build configuration list for PBXNativeTarget "SwiftUI_Contact_MVVMTests" */;
 			buildPhases = (
+				BAA4B588686E2CD151F09639 /* [CP] Check Pods Manifest.lock */,
 				0E6F781A29F981DB00E64A3F /* Sources */,
 				0E6F781B29F981DB00E64A3F /* Frameworks */,
 				0E6F781C29F981DB00E64A3F /* Resources */,
@@ -175,9 +330,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E6F783829F981DB00E64A3F /* Build configuration list for PBXNativeTarget "SwiftUI_Contact_MVVMUITests" */;
 			buildPhases = (
+				1827B55373EE0E7E4F5C6CC9 /* [CP] Check Pods Manifest.lock */,
 				0E6F782429F981DB00E64A3F /* Sources */,
 				0E6F782529F981DB00E64A3F /* Frameworks */,
 				0E6F782629F981DB00E64A3F /* Resources */,
+				842D471189F970E011880399 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,15 +415,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1827B55373EE0E7E4F5C6CC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUI_Contact_MVVM-SwiftUI_Contact_MVVMUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		842D471189F970E011880399 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_Contact_MVVM-SwiftUI_Contact_MVVMUITests/Pods-SwiftUI_Contact_MVVM-SwiftUI_Contact_MVVMUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_Contact_MVVM-SwiftUI_Contact_MVVMUITests/Pods-SwiftUI_Contact_MVVM-SwiftUI_Contact_MVVMUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_Contact_MVVM-SwiftUI_Contact_MVVMUITests/Pods-SwiftUI_Contact_MVVM-SwiftUI_Contact_MVVMUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAA4B588686E2CD151F09639 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUI_Contact_MVVMTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAF360E69E3738CF22129B42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_Contact_MVVM/Pods-SwiftUI_Contact_MVVM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_Contact_MVVM/Pods-SwiftUI_Contact_MVVM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_Contact_MVVM/Pods-SwiftUI_Contact_MVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDA9B7E7FD78E2786A5017D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUI_Contact_MVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0E6F780529F981D900E64A3F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E6F784D29F9850000E64A3F /* EditViewModel.swift in Sources */,
+				0E6F784829F984DE00E64A3F /* CreateViewModel.swift in Sources */,
+				0E6F785229F9852300E64A3F /* Contact.swift in Sources */,
 				0E6F781929F981DB00E64A3F /* SwiftUI_Contact_MVVM.xcdatamodeld in Sources */,
+				0E6F784529F9846600E64A3F /* HomeScreen.swift in Sources */,
 				0E6F781629F981DB00E64A3F /* Persistence.swift in Sources */,
-				0E6F780F29F981D900E64A3F /* ContentView.swift in Sources */,
+				0E6F785829F9854C00E64A3F /* AFHttp.swift in Sources */,
+				0E6F785529F9853700E64A3F /* ContactCell.swift in Sources */,
+				0E6F784F29F9850B00E64A3F /* EditScreen.swift in Sources */,
+				0E6F784A29F984EB00E64A3F /* CreateScreen.swift in Sources */,
 				0E6F780D29F981D900E64A3F /* SwiftUI_Contact_MVVMApp.swift in Sources */,
+				0E6F784229F983C100E64A3F /* HomeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +687,7 @@
 		};
 		0E6F783329F981DB00E64A3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D26887A71F8DE9EA8005C952 /* Pods-SwiftUI_Contact_MVVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -447,6 +716,7 @@
 		};
 		0E6F783429F981DB00E64A3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10098B96CD26331E26799BE2 /* Pods-SwiftUI_Contact_MVVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +745,7 @@
 		};
 		0E6F783629F981DB00E64A3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99FC7E31C537F0C2449C2FB4 /* Pods-SwiftUI_Contact_MVVMTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +765,7 @@
 		};
 		0E6F783729F981DB00E64A3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8658F8A85A06231FCAE4B24D /* Pods-SwiftUI_Contact_MVVMTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +785,7 @@
 		};
 		0E6F783929F981DB00E64A3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B252661BB04AC7372AADAFEE /* Pods-SwiftUI_Contact_MVVM-SwiftUI_Contact_MVVMUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +803,7 @@
 		};
 		0E6F783A29F981DB00E64A3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E97124429285896A1E61334 /* Pods-SwiftUI_Contact_MVVM-SwiftUI_Contact_MVVMUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

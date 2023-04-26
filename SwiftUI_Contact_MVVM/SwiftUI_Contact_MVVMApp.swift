@@ -13,7 +13,7 @@ struct SwiftUI_Contact_MVVMApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeScreen()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
